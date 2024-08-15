@@ -5,7 +5,7 @@ import pattern from "../../assets/pattern.png"
 export default function Hero() {
   return (
     <section className="container mx-auto p-4">
-        <div className="flex flex-col md:flex-row gap-2">
+        <div className="flex flex-col md:flex-row gap-2 reverse">
             <div className="flex flex-col justify-center items-start md:w-1/2 space-y-4">
               <h1 className="text-4xl font-bold text-[#2D3748]">Elegance in Every Stitch</h1>
               <h1 className="text-3xl font-semibold text-[#2D3748]">Celebrate Tradition with <span className='dolz'>DOLZ</span> Home of Fashion</h1>
