@@ -1,0 +1,32 @@
+/* App.css */
+
+/* Wrapper for background and content */
+.app-wrapper {
+  position: relative;
+  min-height: 100vh; /* Ensures the wrapper takes full viewport height */
+  overflow: hidden; /* Prevents any overflow from showing */
+}
+
+/* Background image styling using a pseudo-element */
+.app-wrapper::before {
+  content: '';
+  position: fixed; 
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 800px; 
+  height: 600px; 
+  background-image: url('./assets/logo.png');
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  z-index: -1; 
+}
+
+/* Content styling */
+.content {
+  position: relative;
+  z-index: 1; /* Ensures content appears above the background image */
+  padding: 20px; /* Adjust as needed */
+}
