@@ -1,4 +1,11 @@
-/* Category.css */
+.kidcategorysection{
+  background-color: #E6BB39;
+  opacity: 0.8;
+}
+
+.kidscards{
+  z-index: 1000;
+}
 
 .img1, .img2, .img3 {
     object-fit: cover;
@@ -11,9 +18,10 @@
     height: 500px;
   }
   
-  .svg {
-    color: #EC4899;
-  }
+  /* .svg {
+    color: #0000;
+    border: 3px solid green;
+  } */
   
   @media screen and (max-width: 576px) {
     .img2 {
@@ -28,7 +36,7 @@
     position: absolute; 
     transform: translateY(-50%) rotate(-90deg); 
     transform-origin: left center;
-    background-color: white;
+    /* background-color: transparent; */
     color: #EC4899;
     z-index: 100; 
   }

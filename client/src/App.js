@@ -1,6 +1,7 @@
 import Head from "./components/Header/Head.jsx";
 import Home from "./pages/Home/Home.jsx";
 import "./App.css"
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <div className="content-wrapper">
         <Head />
         <Home />
+        <Footer />
       </div>
     </div>
   );
