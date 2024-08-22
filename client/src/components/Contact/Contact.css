@@ -1,0 +1,8 @@
+.Contactussection {
+    background-color: rgba(252, 221, 255, 0.5); /* 0.5 is the opacity */
+    border-radius: 5%;
+}
+
+.submit {
+    background-color: #EC4899;
+}

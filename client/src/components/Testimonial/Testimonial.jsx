@@ -31,12 +31,13 @@ export default function Testimonial() {
     );
   };
   return (
-    <section className="bg-gray-100 py-12">
+    <section className=" py-12">
       <div className="container mx-auto px-4">
+        <h2 className='text-3xl font-bold mb-4 text-center'>TESTIMONIAL</h2>
         <div className="flex flex-col items-center">
           <div className="relative w-full max-w-md">
             <div className="bg-white p-6 rounded-lg shadow-lg">
-              <p className="text-lg text-gray-700 italic">"{testimonials[currentIndex].testimony}"</p>
+              <p className="text-lg text-gray-700 italic">- {testimonials[currentIndex].testimony}</p>
               <p className="mt-4 text-gray-900 font-bold">- {testimonials[currentIndex].name}</p>
             </div>
             <button

@@ -1,0 +1,8 @@
+.Aboutus {
+    background-color: rgba(226, 228, 255, 0.5); /* 0.5 is the opacity */
+    border-radius: 5%;
+}
+.AUimg {
+    width: 60%;
+    height: 60%;
+}

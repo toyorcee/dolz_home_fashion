@@ -1,7 +1,8 @@
 .kidcategorysection{
-  background-color: #E6BB39;
-  opacity: 0.8;
+  background-color: rgba(226, 228, 255, 0.5); /* Use RGBA to control the opacity of the background color */
+  border-radius: 5%;
 }
+
 
 .kidscards{
   z-index: 1000;
@@ -36,7 +37,7 @@
     position: absolute; 
     transform: translateY(-50%) rotate(-90deg); 
     transform-origin: left center;
-    /* background-color: transparent; */
+    background-color: transparent;
     color: #EC4899;
     z-index: 100; 
   }
@@ -44,6 +45,10 @@
   .slanted-text span{
     font-size: 22px;
     font-weight: 500;
+  }
+
+  .icon svg{
+    color: black;
   }
   
   /* Show More button */
