@@ -4,10 +4,10 @@ import "./Footer.css"
 
 export default function Footer() {
   return (
-    <footer className="Footersection text-gray-200 body-font">
+    <footer className="Footersection text-gray-200 body-font mt-2">
   <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-    <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 bg gap-2">
+    <a className="groupicontext flex title-font font-medium md:items-center text-gray-900 mb-4 md:mb-0 bg gap-2">
       <img src={logo} alt="" className='logo'/>
       <div className="flex-container flex flex-col">
           <span>DOLZ HOME</span>

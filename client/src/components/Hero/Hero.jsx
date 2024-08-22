@@ -12,7 +12,7 @@ export default function Hero() {
               <div>
               <p class="text-lg">At DOLZ Home of Fashion, we bring the rich heritage of native attires to life with exquisite designs for women and children. Located in the heart of Canada, our handcrafted pieces blend tradition with modern style, offering timeless outfits for every occasion. Whether you're looking for bespoke outfits or premium fabrics, DOLZ Home of Fashion celebrates your unique style with elegance and quality.</p>
               </div>
-                <div class="flex gap-3">
+                <div class="flex gap-3 group">
                   <button className="bg-[#EC4899] text-white py-2 px-4 rounded">Get Started</button>
                   <button className="bg-[#667EEA] text-white py-2 px-4 rounded">Learn More</button>
                 </div>

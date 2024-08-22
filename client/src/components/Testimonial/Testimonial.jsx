@@ -33,7 +33,7 @@ export default function Testimonial() {
   return (
     <section className=" py-12">
       <div className="container mx-auto px-4">
-        <h2 className='text-3xl font-bold mb-4 text-center'>TESTIMONIAL</h2>
+        <h2 className='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 text-center'>TESTIMONIAL</h2>
         <div className="flex flex-col items-center">
           <div className="relative w-full max-w-md">
             <div className="bg-white p-6 rounded-lg shadow-lg">

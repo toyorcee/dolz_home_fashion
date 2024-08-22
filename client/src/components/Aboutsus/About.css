@@ -6,3 +6,11 @@
     width: 60%;
     height: 60%;
 }
+
+@media screen and (max-width: 576px){
+    .AUimg {
+        /* margin-left: auto;
+        margin-right: auto; */
+        margin: 0px auto;
+    }
+}

@@ -65,4 +65,15 @@
   .show-more-btn:hover {
     background-color: #E6BB39;
   }
+
+  @media (max-width: 600px) {
+    .slanted-text {
+      top: 1%; /* Adjust the top positioning */
+      left: 50%; /* Center horizontally */
+      transform: translateX(-50%) translateY(0) rotate(0deg); /* Remove rotation and align center */
+      transform-origin: center center;
+      width: 100%;
+      text-align: center;
+    }
+  }
   
