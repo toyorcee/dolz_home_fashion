@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Kidcategory.css"
-import img1 from '../../assets/black-african.jpg';
-import img2 from '../../assets/yoruba-lady.jpg';
-import img3 from '../../assets/woman-standing-front-yellow-.jpg';
+import img1 from '../../assets/Image1.jpg';
+import img2 from '../../assets/Image2.jfif';
+import img3 from '../../assets/Image6.jpg';
+import img4 from '../../assets/Image5.jpg'; // Additional images
+import img5 from '../../assets/Image3.jfif';
+import img6 from '../../assets/Image4.jfif';
 
 export default function Kidcategory() {
+  const [showMore, setShowMore] = useState(false);
+
+  const handleShowMore = () => {
+    setShowMore(!showMore);
+  };
   return (
     <section className="kidcategorysection text-gray-600 body-font">   
     <div className="kidcontainer container px-5 py-24 mx-auto">
@@ -73,10 +81,31 @@ export default function Kidcategory() {
         </div>
       </div>
     </div>
-    {/* Show More button */}
-    <div className="text-center mt-8">
-      <button className="show-more-btn">Show More</button>
-    </div>
+
+          {/* Hidden Row of Images */}
+      <div className={`extra-images flex flex-wrap -m-4 transition-all duration-500 ease-in-out ${showMore ? 'max-h-full opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
+        <div className="p-4 lg:w-1/3">
+          <div className="h-full bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+            <img src={img4} alt="Image 4" className="img4" />
+          </div>
+        </div>
+        <div className="p-4 lg:w-1/3">
+          <div className="h-full bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+            <img src={img5} alt="Image 5" className="img5" />
+          </div>
+        </div>
+        <div className="p-4 lg:w-1/3">
+          <div className="h-full bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+            <img src={img6} alt="Image 6" className="img6" />
+          </div>
+        </div>
+      </div>
+      {/* Show More button */}
+      <div className="text-center mt-8">
+        <button className="show-more-btn" onClick={handleShowMore}>
+          {showMore ? 'Show Less' : 'Show More'}
+        </button>
+      </div>
   </div>
   </section>
   )
