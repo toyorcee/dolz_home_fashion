@@ -1,26 +1,18 @@
 /* Category.css */
 
-.img1, .img2, .img3 {
+.img1, .img2, .img3, .img4, .img5, .pho6 {
     object-fit: cover;
     width: 100%;
     height: auto;
     border-radius: 20px;
   }
   
-  .img3 {
+  .img3, .pho6 {
     height: 500px;
   }
   
   .svg {
     color: #EC4899;
-  }
-  
-  @media screen and (max-width: 576px) {
-    .img2 {
-      object-fit: cover;
-      width: 350px;
-      height: auto;
-    }
   }
   
 .slanted-text {
@@ -35,6 +27,14 @@
   
   .slanted-text span{
     font-size: 22px;
+    font-weight: 500;
+  }
+
+  .adultcategory h1{
+    text-align: center;
+    margin-left: 20px;
+    font-size: 1.5rem;
+    color: #EC4899;
     font-weight: 500;
   }
   
@@ -54,12 +54,13 @@
   }
 
   @media (max-width: 600px) {
-    .slanted-text {
-      top: 2%; /* Adjust the top positioning */
-      left: 50%; /* Center horizontally */
-      transform: translateX(-50%) translateY(0) rotate(0deg); /* Remove rotation and align center */
-      transform-origin: center center;
+    .adultcards > div{
       width: 100%;
-      text-align: center;
+      height: auto;
+    }
+    .img2 {
+      object-fit: cover;
+      width: 350px;
+      height: auto;
     }
   }

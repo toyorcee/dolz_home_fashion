@@ -6,9 +6,8 @@ export default function Aboutus() {
   return (
     <section className="Aboutus py-12 my-2">
     <div className="container mx-auto px-4">
-      <div className="flex flex-col md:flex-row items-center gap-56">
-        <div className="md:w-1/2">
-          <h2 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 text-center">ABOUT US</h2>
+      <h2 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 text-center">ABOUT US</h2>
+      <div className="flex flex-col md:flex-row items-center gap-2">
         <div className="md:w-1/2 mt-0 my-5 md:mt-8">
           <img
             src={AUimg}
@@ -16,6 +15,7 @@ export default function Aboutus() {
             className="AUimg w-full h-auto rounded-lg shadow-lg"
           />
         </div>
+        <div className='md:w-1/2 mt-0 my-5 md:mt-8'>
           <p className="text-lg text-gray-700 mb-4">
             We are a passionate team dedicated to bringing you the best fashion experience. Our mission is to deliver high-quality native attires and fabrics that make you look and feel your best.
           </p>
