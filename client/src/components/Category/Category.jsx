@@ -94,7 +94,7 @@ export default function Category() {
       <div className={`extra-images flex flex-wrap -m-4 transition-all duration-500 ease-in-out ${showMore ? 'max-h-full opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
         <div className="p-4 lg:w-1/3">
           <div className="h-full bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-            <img src={img4} alt="Image 4" className="img4" />
+            <img src={img4} alt="Image4" className="img4" />
             <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
             <span className="icon text-[#EC4899] mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
               <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
@@ -114,7 +114,7 @@ export default function Category() {
         </div>
         <div className="p-4 lg:w-1/3">
           <div className="h-full bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-            <img src={img5} alt="Image 5" className="img5" />
+            <img src={img5} alt="Image5" className="img5" />
             <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
             <span className="icon text-[#EC4899] mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
               <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
@@ -134,7 +134,7 @@ export default function Category() {
         </div>
         <div className="p-4 lg:w-1/3">
           <div className="h-full bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-            <img src={pho6} alt="Image 6" className="img6" />
+            <img src={pho6} alt="Image6" className="img6" />
             <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
             <span className="icon text-[#EC4899] mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-200">
               <svg className="w-4 h-4 mr-1" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
