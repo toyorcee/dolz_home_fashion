@@ -15,12 +15,12 @@ export default function Head() {
       </div>
     </a>
     <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center cursor-pointer font-semibold">
-      <a className="mr-5 text-[#2D3748] hover:text-[#667EEA]">HOME</a>
-      <a className="mr-5 text-[#2D3748] hover:text-[#667EEA]">CATEGORY</a>
-      <a className="mr-5 text-[#2D3748] hover:text-[#667EEA]">TESTIMONIAL</a>
-      <a className="mr-5 text-[#2D3748] hover:text-[#667EEA]">ABOUT US</a>
+      <a className="mr-5 text-[#2D3748] hover:text-[#EC4899]">HOME</a>
+      <a className="mr-5 text-[#2D3748] hover:text-[#EC4899]">TESTIMONIAL</a>
+      <a className="mr-5 text-[#2D3748] hover:text-[#EC4899]">CATEGORY</a>
+      <a className="mr-5 text-[#2D3748] hover:text-[#EC4899]">ABOUT US</a>
     </nav>
-    <button className="contact inline-flex items-center bg-gray-100 text-[#2D3748] border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">CONTACT
+    <button className="contact inline-flex items-center bg-gray-100 text-[#2D3748] border-0 py-1 px-3 focus:outline-none hover:bg-[#EC4899] rounded text-base mt-4 md:mt-0">CONTACT
     <svg fill="none" stroke="#667EEA" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
       <path d="M5 12h14M12 5l7 7-7 7"></path>
     </svg>
