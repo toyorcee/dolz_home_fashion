@@ -1,0 +1,64 @@
+/* Testimonial.css */
+.testimonial-slide {
+    transition: transform 0.5s ease-in-out;
+    /* Optional: Add more styling here */
+  }
+  
+  .testimonial-slide:nth-child(1) {
+    transform: translateX(0);
+  }
+  
+  .testimonial-slide:nth-child(2) {
+    transform: translateX(-100%);
+  }
+  
+  .testimonial-slide:nth-child(3) {
+    transform: translateX(-200%);
+  }
+  
+  /* Add any additional styling for the container and buttons */
+  .relative {
+    position: relative;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .left-0 {
+    left: 0;
+  }
+  
+  .right-0 {
+    right: 0;
+  }
+  
+  .top-1/2 {
+    top: 50%;
+  }
+  
+  .transform {
+    transform: translateY(-50%);
+  }
+  
+  .bg-gray-200 {
+    background-color: #e2e8f0;
+  }
+  
+  .p-2 {
+    padding: 0.5rem;
+  }
+  
+  .rounded-full {
+    border-radius: 9999px;
+  }
+  
+  .shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .slidergap{
+    border: 3px solid #e4c2d3;
+    padding: 0 15px;
+  }
