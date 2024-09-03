@@ -12,7 +12,14 @@
     width: 100%;
 }
 
-@media screen and (max-width: 576px){
+/* @media screen and (max-width: 768px){
+    .hero{
+        padding-top: 12px;
+        border: 3px solid red;
+    }
+} */
+
+@media screen and (max-width: 576px) and (min-width: 1px){
     .reverse{
         flex-direction: column-reverse;
         height: auto;
@@ -21,5 +28,18 @@
     .group{
         margin-left: auto;
         margin-right: auto;
+    }
+    .heroheader{
+        font-size: 1.9rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .herotext{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
     }
 }

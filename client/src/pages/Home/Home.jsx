@@ -9,12 +9,12 @@ import Contact from '../../components/Contact/Contact'
 export default function Home() {
   return (
     <>
-    <div><Hero /></div>
-    <div><Category /></div>
-    <div><Kidcategory /></div>
-    <div><Testimonial /></div>
-    <div><Contact /></div>
-    <div><Aboutus /></div>
+      <section id="hero"><Hero /></section>
+      <section id="category"><Category /></section>
+      <section id="kidcategory"><Kidcategory /></section>
+      <section id="testimonial"><Testimonial /></section>
+      <section id="contact"><Contact /></section>
+      <section id="aboutus"><Aboutus /></section>
     </>
   )
 }

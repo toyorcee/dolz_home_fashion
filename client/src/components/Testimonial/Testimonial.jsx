@@ -38,7 +38,7 @@ export default function Testimonial() {
       <div className="container mx-auto px-4">
         <h2 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 text-center">TESTIMONIAL</h2>
         <div className="relative w-full max-w-md mx-auto">
-          <div className="slidergap relative overflow-hidden">
+          <div className="slidergap testimonial-frame relative overflow-hidden">
             <div className="testimonial-slide">
               <div className="bg-white p-6 rounded-lg shadow-lg">
                 <p className="text-lg text-gray-700 italic">- {testimonials[currentIndex].testimony}</p>
