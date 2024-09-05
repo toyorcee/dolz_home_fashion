@@ -1,17 +1,15 @@
-/* Testimonial.css */
 .testimonial-frame {
   position: relative;
-  border: 2px solid #e2e8f0; /* Light gray border */
-  border-radius: 12px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  padding: 1rem; /* Padding inside the frame */
-  background: #f9f9f9; /* Light background color */
-  overflow: hidden; /* Hide overflowing content */
+  border: 2px solid #e2e8f0; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 1rem;
+  background: #f9f9f9;
+  overflow: hidden;
 }
 
 .testimonial-slide {
   transition: transform 0.5s ease-in-out;
-  /* Optional: Add more styling here */
 }
 
 .testimonial-slide:nth-child(1) {
@@ -34,7 +32,7 @@
   position: absolute;
 }
 
-.t[top-1/2] {
+.testimonialbtn{
   top: 50%;
 }
 

@@ -47,13 +47,13 @@ export default function Testimonial() {
             </div>
           </div>
           <button
-            className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-gray-200 p-2 rounded-full shadow-md"
+            className="testimonialbtn absolute top-1/2 left-0 transform -translate-y-1/2 bg-gray-200 p-2 rounded-full shadow-md"
             onClick={prevTestimonial}
           >
             &lt;
           </button>
           <button
-            className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-200 p-2 rounded-full shadow-md"
+            className="testimonialbtn absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-200 p-2 rounded-full shadow-md"
             onClick={nextTestimonial}
           >
             &gt;
