@@ -9,9 +9,9 @@ import img6 from '../../assets/Image4.jfif';
 import pho1 from '../../assets/pho1.JPG';
 import pho2 from '../../assets/pho2.JPG';
 import pho3 from '../../assets/pho3.JPG';
-import pho4 from '../../assets/pho4.JPG';
-import pho5 from '../../assets/pho5.JPG';
-import pho6 from '../../assets/pho6.JPG';
+import pho4 from '../../assets/baby.JPG';
+import pho5 from '../../assets/baby1.jpg';
+import pho6 from '../../assets/baby2.jpg';
 
 export default function Kidcategory() {
   const [showMore, setShowMore] = useState(false);
@@ -101,9 +101,6 @@ export default function Kidcategory() {
         {/* Hidden Row of Images */}
         <div className={`extra-images flex flex-wrap -m-4 transition-all duration-500 ease-in-out ${showMore ? 'max-h-full opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
         <div className="kidscards flex flex-wrap -m-4 relative">
-          <div className="md:slanted-text hidden">
-            <span>KID CATEGORY</span>
-          </div>
           <div className="p-4 lg:w-1/3">
             <div id='img5div' className="h-full bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
               <img src={pho1} alt="pho1" className="img" />
