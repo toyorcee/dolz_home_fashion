@@ -40,15 +40,15 @@
     background-color: #EC4899;
     color: #ffff;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s;
     font-weight: 500;
   }
   
-  .show-more-btn:hover {
-    background-color: #E6BB39;
-  }
+  /* .show-more-btn:hover {
+    background-color: #667EEA;
+  } */
 
   @media (max-width: 600px) {
     .adultcards > div{

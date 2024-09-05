@@ -41,7 +41,7 @@ export default function Head({ scrollToSection }) {
           <a className="mr-5 text-[#2D3748] hover:text-[#EC4899]" onClick={() => scrollToSection('testimonial')}>TESTIMONIAL</a>
           <a className="mr-5 text-[#2D3748] hover:text-[#EC4899]" onClick={() => scrollToSection('aboutus')}>ABOUT US</a>
         </nav>
-        <button className="hidden md:flex contact inline-flex items-center bg-gray-100 text-[#2D3748] border-0 py-1 px-3 focus:outline-none hover:bg-[#EC4899] rounded text-base mt-4 md:mt-0">CONTACT
+        <button className="hidden md:flex contact inline-flex items-center bg-gray-100 text-[#2D3748] border-0 py-1 px-3 focus:outline-none hover:bg-[#EC4899] hover:text-white rounded text-base mt-4 md:mt-0">CART
     <svg fill="none" stroke="#667EEA" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
       <path d="M5 12h14M12 5l7 7-7 7"></path>
     </svg>
@@ -60,7 +60,7 @@ export default function Head({ scrollToSection }) {
               <a className="py-2 text-[#2D3748] hover:text-[#EC4899]" onClick={() => scrollToSection('category')}>CATEGORY</a>
               <a className="py-2 text-[#2D3748] hover:text-[#EC4899]" onClick={() => scrollToSection('testimonial')}>TESTIMONIAL</a>
               <a className="py-2 text-[#2D3748] hover:text-[#EC4899]" onClick={() => scrollToSection('aboutus')}>ABOUT US</a>
-              <button className="md:hidden contact inline-flex items-center bg-gray-100 text-[#2D3748] border-0 py-1 px-3 focus:outline-none hover:bg-[#EC4899] rounded text-base mt-4 md:mt-0">CONTACT
+              <button className="md:hidden contact inline-flex items-center bg-gray-100 text-[#2D3748] border-0 py-1 px-3 focus:outline-none hover:bg-[#EC4899] hover:text-white rounded text-base mt-4 md:mt-0">CART
     <svg fill="none" stroke="#667EEA" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
       <path d="M5 12h14M12 5l7 7-7 7"></path>
     </svg>

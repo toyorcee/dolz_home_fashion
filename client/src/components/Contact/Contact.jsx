@@ -96,7 +96,7 @@ export default function Contact() {
                   </div>
                 </div>
                 <div className="p-2 w-full">
-                  <button className="submit flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none rounded text-lg">
+                  <button className="submit flex mx-auto text-white border-0 py-2 px-8 focus:outline-none rounded text-lg hover:bg-[#3498db]">
                     SUBMIT
                   </button>
                 </div>

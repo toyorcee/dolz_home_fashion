@@ -7,6 +7,15 @@
     color: #EC4899;
 }
 
+.GetStarted{
+    border-radius: 20px;
+}
+
+.LearnMore{
+    border-radius: 20px;
+}
+
+
 .native-image-pattern{
     height: 550px;
     width: 100%;

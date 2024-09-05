@@ -3,6 +3,12 @@ import "./Hero.css"
 import pattern from "../../assets/pattern.png"
 
 export default function Hero() {
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <section className="container mx-auto p-4">
         <div className="flex flex-col md:flex-row gap-2 reverse">
@@ -12,10 +18,20 @@ export default function Hero() {
               <div>
               <p class="herotext text-lg">At DOLZ Home of Fashion, we bring the rich heritage of native attires to life with exquisite designs for women and children. Located in the heart of Canada, our handcrafted pieces blend tradition with modern style, offering timeless outfits for every occasion. Whether you're looking for bespoke outfits or premium fabrics, DOLZ Home of Fashion celebrates your unique style with elegance and quality.</p>
               </div>
-                <div class="flex gap-6 group py-8">
-                  <button className="bg-[#EC4899] text-white py-2 px-4 rounded">Get Started</button>
-                  <button className="bg-[#667EEA] text-white py-2 px-4 rounded">Learn More</button>
-                </div>
+              <div className="flex gap-6 group py-8">
+                <button 
+                  className="bg-[#EC4899] GetStarted text-white py-2 px-4 rounded"
+                  onClick={() => scrollToSection('category')}
+                >
+                  SHOP NOW
+                </button>
+                <button 
+                  className="bg-[#667EEA] LearnMore text-white py-2 px-4 rounded"
+                  onClick={() => scrollToSection('about')}
+                >
+                  LEARN MORE
+                </button>
+              </div>
             </div>
             <div className="md:w-1/2 mt-4 md:mt-0 flex justify-center md:justify-end">
             <img src={pattern} alt="fashion-hero" className='native-image-pattern'/>
