@@ -1,14 +1,31 @@
 .Aboutus {
-    background-color: rgba(226, 228, 255, 0.5); /* 0.5 is the opacity */
+    background-color: rgba(226, 228, 255, 0.5); 
     border-radius: 5%;
 }
-.AUimg {
-    width: 60%;
-    height: 60%;
+.about-img {
+    height: 400px;
+    object-fit: cover;
 }
+.modal img {
+    max-width: 90%;
+    max-height: 90%;
+  }
+  
+.modal {
+    z-index: 999; 
+  }
+/* .aboutuscontainer{
+    padding: 0.5rem;
+} */
 
 @media screen and (max-width: 576px){
     .AUimg {
         margin: 0px auto;
+    }
+    .aboutus-para{
+        padding-top: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 }
